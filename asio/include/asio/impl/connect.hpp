@@ -371,6 +371,7 @@ namespace detail
             return;
           }
 
+	  /* FALL THROUGH */
           default:
 
           if (iter == end)
@@ -541,6 +542,7 @@ namespace detail
             return;
           }
 
+	  /* FALL THROUGH */
           default:
 
           if (iter_ == end_)
